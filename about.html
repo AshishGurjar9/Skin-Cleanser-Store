@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us - Flawless Store</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header & Hero -->
+    <header class="about-hero d-flex flex-column justify-content-between">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark pb-3">
+            <div class="container align-items-center">
+                <!-- Menu Toggler -->
+                <button class="navbar-toggler order-1 order-lg-2 me-2 me-lg-0 border-0 shadow-none p-0" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#mainMenu" aria-controls="mainMenu"
+                    aria-label="Toggle navigation">
+                    <i class="bi bi-list fs-1 text-white"></i>
+                </button>
+
+                <!-- Brand Logo -->
+                <a class="navbar-brand about-brand order-2 order-lg-1 me-auto me-lg-4" href="index.html">
+                    <img src="images/site-logo.svg" class="img-fluid logo border-0" alt="Flawless Store Logo">
+                </a>
+
+                <!-- Nav Menu -->
+                <div class="offcanvas-lg offcanvas-start order-4 order-lg-2" tabindex="-1" id="mainMenu"
+                    aria-labelledby="mainMenuLabel">
+                    <div
+                        class="offcanvas-header d-flex d-lg-none align-items-center justify-content-between border-bottom px-4 py-3">
+                        <h5 class="offcanvas-title mb-0" id="mainMenuLabel">
+                            <img src="images/site-logo.svg" class="img-fluid logo border-0" alt="Flawless Store Logo"
+                                style="width: 7rem;">
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#mainMenu"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body justify-content-center px-4 py-3 p-lg-0">
+                        <ul class="navbar-nav gap-2 gap-lg-4 my-auto w-100 flex-column flex-lg-row">
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium" href="shop.html">SHOP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium active" aria-current="page" href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium" href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Header Icons -->
+                <div class="d-flex align-items-center pt-4 gap-3 gap-md-4 order-3 order-lg-3 ms-auto ms-lg-0">
+                    <a href="#" class="text-white text-decoration-none" title="User Account">
+                        <i class="bi bi-person-fill fs-5 text-white"></i>
+                    </a>
+
+                    <a href="#" class="navbar-cart-link d-flex align-items-center text-decoration-none"
+                        data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" title="Shopping Bag">
+                        <span class="navbar-cart-price text-white"></span>
+                        <span class="navbar-cart-icon position-relative d-inline-flex align-items-center">
+                            <i class="bi bi-bag-fill fs-6 pt-1 ps-1  text-white"></i>
+                            <span class="navbar-cart-badge d-none">0</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- About Hero Content -->
+        <div class="container hero-content my-auto pb-5 text-center ">
+            <div class="row justify-content-center mb-4">
+                <div class="col-12 col-md-10 col-lg-8 text-white">
+                    <h1 class="display-4 fw-normal mb-4 pb-2">
+                        About
+                    </h1>
+
+                    <p class="lead  mx-auto mb-3" style="font-size: 15px; max-width: 580px; line-height: 1.7;">
+                        At Flawless, we believe skincare should be simple, natural, and effective. Our mission is to
+                        help you feel confident in your skin—every single day.
+                    </p>
+
+                    <span class="d-inline-block mx-auto mt-2"
+                        style="width: 42px; height: 2px; background-color: rgba(255, 255, 255, 0.85);"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- From Founder Section -->
+    <section class="founder-section py-5 mt-5">
+        <div class="container founder-inner py-2 py-md-5">
+            <div class="row founder-row align-items-center g-4 g-lg-5">
+                <!-- Founder Image -->
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <img src="images/founder-image-300x300.png"
+                        class="founder-image img-fluid shadow-sm w-100 mx-auto d-block"
+                        alt="Mila Christine - Founder">
+                </div>
+
+                <!-- Founder Quote & Info -->
+                <div class="col-12 col-md-6 founder-content">
+                    <p class="small fw-semibold text-secondary mb-3" style="letter-spacing: 2px;">
+                        FROM FOUNDER
+                    </p>
+
+                    <span class="quote-icon d-block mb-3 founder-quote">“</span>
+
+                    <p class="fs-5 fw-bold d-block text-dark fw-medium lh-base mb-4 founder-statement">
+                        Flawless was founded by a passion believer in clean and conscious skincare. Flawless is my way
+                        of sharing honest, natural care that helps you feel confident in your skin.
+                    </p>
+
+                    <h6 class="fw-bold  text-dark mb-1" style="letter-spacing: 1px; font-size: 3vh;">
+                        MILA CHRISTINE
+                    </h6>
+                    <p class="small text-secondary mb-0"style=" font-size: 4vh;">
+                        Founder
+                    </p>
+
+                    <hr class="opacity-25 my-4">
+
+                    <p class="small fw-semibold text-secondary mb-2" style="letter-spacing: 2px;">
+                        SOCIAL MEDIA
+                    </p>
+
+                    <div class="d-flex gap-2 founder-social-links">
+                        <a href="#" class="social-circle-link" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-circle-link" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-circle-link" aria-label="Pinterest">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+                        <a href="#" class="social-circle-link" aria-label="Twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-circle-link" aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story & Stats Section -->
+    <section class="py-5" style="background-color: #F8FBFC;">
+        <div class="container py-3 py-md-5">
+            <div class="row g-4 g-lg-5">
+                <!-- Left: Label -->
+                <div class="col-12 col-md-3">
+                    <p class="small fw-semibold text-secondary mb-2" style="letter-spacing: 2px;">
+                        OUR STORY
+                    </p>
+                </div>
+
+                <!-- Right: Story Narrative & Stats -->
+                <div class="col-12 col-md-9">
+                    <h3 class="fw-normal text-dark mb-3 lh-base fs-4">
+                        Born from a passion for clean beauty, Flawless is skincare you can trust. We blend nature and
+                        science to bring out your skin’s natural radiance.
+                    </h3>
+
+                    <p class="text-secondary small lh-lg mb-5">
+                        Flawless began with a simple idea—to create skincare that’s honest, gentle, and truly effective.
+                        Tired of products filled with harsh chemicals and empty promises, our founder set out to build
+                        something better. Guided by nature and backed by care, Flawless was born to bring pure, organic
+                        skincare to everyone. What started as a passion has grown into a trusted brand, helping people
+                        feel confident in their skin every single day.
+                    </p>
+
+                    <!-- Stats Counter Row -->
+                    <div class="row text-start g-4">
+                        <div class="col-6 col-sm-3">
+                            <div class="stat-number">1200+</div>
+                            <p class="small text-secondary mb-0 mt-1">Loyal Customers</p>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <div class="stat-number">4.9</div>
+                            <p class="small text-secondary mb-0 mt-1">Average Rating</p>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <div class="stat-number">90%</div>
+                            <p class="small text-secondary mb-0 mt-1">Repeat Buyers</p>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <div class="stat-number">20+</div>
+                            <p class="small text-secondary mb-0 mt-1">Countries Glowing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Follow Us & Gallery -->
+    <section class="py-5">
+        <div class="container text-center mb-4">
+            <h2 class="fw-normal text-dark display-8 mb-2">
+                Follow Us <span class="cursor-pointer">@flawlesscleanser</span>
+            </h2>
+        </div>
+
+        <div class="container gallery">
+            <div class="row g-2 g-md-4">
+                <div class="col-6 col-md-4">
+                    <img src="images/skin-care-store-image-1.png" class="img-fluid rounded w-100 shadow-sm"
+                        alt="Store Gallery 1">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="images/skin-care-store-image-6.png" class="img-fluid rounded w-100 shadow-sm"
+                        alt="Store Gallery 2">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="images/skin-care-store-image-2.png" class="img-fluid rounded w-100 shadow-sm"
+                        alt="Store Gallery 3">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="images/skin-care-store-image-3.png" class="img-fluid rounded w-100 shadow-sm"
+                        alt="Store Gallery 4">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="images/skin-care-store-image-4.png" class="img-fluid rounded w-100 shadow-sm"
+                        alt="Store Gallery 5">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="images/skin-care-store-image-5.png" class="img-fluid rounded w-100 shadow-sm"
+                        alt="Store Gallery 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Features -->
+    <section class="py-5 foot" style="background-color: #dceff1;">
+        <div class="container">
+            <div class="row text-center g-3 g-md-4 align-items-center">
+                <!-- Free Delivery -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="mb-3">
+                        <span class="icon-circle shadow-sm">
+                            <i class="fa-solid fa-truck text-white fs-4"></i>
+                        </span>
+                    </div>
+                    <h6 class="fw-semibold text-dark mb-1">FREE DELIVERY</h6>
+                    <p class="mb-0 small text-secondary">Fast & free delivery</p>
+                </div>
+
+                <!-- Easy Payment -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="mb-3">
+                        <span class="icon-circle shadow-sm">
+                            <i class="fa-solid fa-credit-card text-white fs-4"></i>
+                        </span>
+                    </div>
+                    <h6 class="fw-semibold text-dark mb-1">EASY PAYMENT</h6>
+                    <p class="mb-0 small text-secondary">Multiple payment options</p>
+                </div>
+
+                <!-- Track Order -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="mb-3">
+                        <span class="icon-circle shadow-sm">
+                            <i class="fa-solid fa-location-dot text-white fs-4"></i>
+                        </span>
+                    </div>
+                    <h6 class="fw-semibold text-dark mb-1">TRACK ORDER</h6>
+                    <p class="mb-0 small text-secondary">Real-time order tracking</p>
+                </div>
+
+                <!-- Have Questions -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="mb-3">
+                        <span class="icon-circle shadow-sm">
+                            <i class="fa-solid fa-circle-question text-white fs-4"></i>
+                        </span>
+                    </div>
+                    <h6 class="fw-semibold text-dark mb-1">HAVE QUESTIONS?</h6>
+                    <p class="mb-0 small text-secondary">We’re here to help</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Footer -->
+    <footer class="main-footer text-white">
+        <div class="container py-5">
+            <div class="row g-4 g-lg-5 justify-content-between">
+                <!-- About -->
+                <div class="col-12 col-sm-6 col-lg-4 text-center text-sm-start">
+                    <h2 class="fw-normal mb-3 display-6">Flawless</h2>
+                    <p class="footer-text opacity-75 small lh-lg mx-auto mx-sm-0">
+                        It’s a promise of clean, effective, and gentle care for every skin type. Rooted in nature
+                        and powered by purity, our products are crafted to nourish your skin and reveal its natural
+                        glow.
+                    </p>
+
+                    <div class="d-flex justify-content-center justify-content-sm-start gap-3 mt-4">
+                        <a href="#" class="text-white fs-5" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-white fs-5" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="text-white fs-5" aria-label="Twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-12 col-sm-6 col-lg-2 text-center text-sm-start">
+                    <h5 class="fw-semibold mb-3 fs-6">Quick Links</h5>
+                    <ul
+                        class="list-unstyled small opacity-75 d-flex flex-column gap-2 mb-0 align-items-center align-items-sm-start">
+                        <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="shop.html" class="text-white text-decoration-none">Shop</a></li>
+                        <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Categories -->
+                <div class="col-12 col-sm-6 col-lg-2 text-center text-sm-start">
+                    <h5 class="fw-semibold mb-3 fs-6">Categories</h5>
+                    <ul
+                        class="list-unstyled small opacity-75 d-flex flex-column gap-2 mb-0 align-items-center align-items-sm-start">
+                        <li><a href="shop.html?category=Body+lotion" class="text-white text-decoration-none">Body
+                                Lotion</a></li>
+                        <li><a href="shop.html?category=Sunscreens"
+                                class="text-white text-decoration-none">Sunscreen</a></li>
+                        <li><a href="shop.html?category=Cleanser" class="text-white text-decoration-none">Cleanser</a>
+                        </li>
+                        <li><a href="shop.html?category=Moisturizer"
+                                class="text-white text-decoration-none">Moisturizer</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-12 col-sm-6 col-lg-3 text-center text-sm-start">
+                    <h5 class="fw-semibold mb-3 fs-6">Contact</h5>
+                    <p class="footer-text small opacity-75 lh-lg mb-2 mx-auto mx-sm-0">
+                        123 Demo St, San Francisco,<br>
+                        CA 45678, United States
+                    </p>
+                    <p class="small opacity-75 mb-1">
+                        +1 123 456 7890
+                    </p>
+                    <p class="small opacity-75 mb-0">
+                        mail@example.com
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="border-top border-white border-opacity-25">
+            <div class="container text-center py-3">
+                <p class="mb-0 small opacity-75">
+                    © 2026 Skin Cleanser Store. Powered by Skin Cleanser Store.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Cart Button -->
+    <a href="#" class="floating-cart-btn" aria-label="View Shopping Cart" data-bs-toggle="offcanvas"
+        data-bs-target="#cartOffcanvas">
+        <i class="bi bi-cart3 fs-5"></i>
+        <span class="badge rounded-pill d-none">0</span>
+    </a>
+
+    <!-- Cart Drawer -->
+    <div class="offcanvas offcanvas-end cart-offcanvas" tabindex="-1" id="cartOffcanvas"
+        aria-labelledby="cartOffcanvasLabel">
+        <!-- Shipping Bar -->
+        <div class="bg-light border-bottom px-3 py-2 text-center small">
+            <span id="shippingNoticeText">You're <strong class="text-danger" id="shippingAwayAmount">$955.10</strong>
+                away from free shipping!</span>
+            <div class="progress mt-2" style="height: 4px;">
+                <div class="progress-bar bg-danger" id="shippingProgressBar" role="progressbar" style="width: 5%;"
+                    aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <div class="offcanvas-header border-bottom px-4 py-3 align-items-center">
+            <button type="button" class="btn p-0 border-0 fs-5 text-dark" data-bs-dismiss="offcanvas"
+                aria-label="Close">
+                <i class="bi bi-arrow-left"></i>
+            </button>
+            <h5 class="offcanvas-title fw-normal mb-0 fs-5 text-dark" id="cartOffcanvasLabel">Review Your Cart</h5>
+            <span class="badge bg-light text-dark border px-2 py-1" id="cartHeaderBadge">0</span>
+        </div>
+
+        <!-- Cart Items -->
+        <div class="offcanvas-body px-4 py-3 d-flex flex-column" id="cartBody">
+            <!-- Dynamic Cart Items -->
+            <div id="cartItemsContainer" class="flex-grow-1 overflow-auto">
+                <!-- Rendered dynamically by main.js -->
+            </div>
+
+            <!-- Empty Cart Message -->
+            <div id="emptyCartMessage" class="text-center py-5 d-none">
+                <i class="bi bi-bag text-secondary" style="font-size: 3.5rem;"></i>
+                <h6 class="mt-3 text-dark fw-normal">Your cart is currently empty.</h6>
+                <a href="shop.html"
+                    class="btn shop2 rounded-pill px-4 py-2 mt-3 small fw-semibold text-uppercase text-decoration-none">Return
+                    To Shop</a>
+            </div>
+        </div>
+
+        <!-- Cart Summary -->
+        <div class="border-top p-4 bg-white" id="cartFooter">
+            <!-- Discount Accordion -->
+            <div class="mb-3">
+                <a class="text-decoration-none text-secondary small d-flex justify-content-between align-items-center"
+                    data-bs-toggle="collapse" href="#discountCodeCollapse" role="button" aria-expanded="false">
+                    <span>Got a Discount Code?</span>
+                    <i class="bi bi-chevron-down small"></i>
+                </a>
+                <div class="collapse mt-2" id="discountCodeCollapse">
+                    <div class="input-group input-group-sm">
+                        <input type="text" class="form-control" placeholder="Coupon code">
+                        <button class="btn btn-outline-secondary" type="button">Apply</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subtotal & Total -->
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="text-dark fw-bold">Subtotal</span>
+                <span class="text-dark fw-bold" id="cartSubtotal"></span>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="text-dark fw-bold">Total</span>
+                <span class="text-dark fw-bold" id="cartTotal"></span>
+            </div>
+
+            <!-- Checkout Button -->
+            <a href="checkout.html"
+                class="btn shop2 w-100 py-3 rounded-2 fw-bold text-center text-uppercase d-block text-decoration-none"
+                style="font-size: 0.95rem; letter-spacing: 0.5px;">
+                Proceed to Checkout &rarr;
+            </a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>

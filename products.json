@@ -1,0 +1,156 @@
+[
+  {
+    "id": "almond-milk-lotion",
+    "name": "Almond Milk Lotion",
+    "category": "Body lotion",
+    "price": 28.00,
+    "priceDisplay": "$28.00",
+    "img": "images/skin-cleanser-template-product-img-8.jpg",
+    "rating": 5,
+    "description": "Enriched with sweet almond extract and organic milk proteins, this soothing body lotion deeply nourishes, calms irritation, and restores supple elasticity to dry skin.",
+    "isFeatured": false
+  },
+  {
+    "id": "antiaging-skin-oil",
+    "name": "Antiaging Skin Oil",
+    "category": "Moisturizer",
+    "price": 44.90,
+    "priceDisplay": "$44.90",
+    "img": "images/skin-cleanser-template-product-img-4.jpg",
+    "rating": 5,
+    "description": "A revitalizing face and neck oil formulated with botanical antioxidants and cold-pressed plant oils that reduce fine lines and impart a youthful, luminous glow.",
+    "isFeatured": true
+  },
+  {
+    "id": "balancing-daily-cleanser",
+    "name": "Balancing Daily Cleanser",
+    "category": "Cleanser",
+    "price": 34.90,
+    "priceDisplay": "$34.90",
+    "img": "images/skin-cleanser-template-product-img-5.jpg",
+    "rating": 5,
+    "description": "A pH-balanced daily wash that gently purifies skin pores, removes impurities, and controls excess sebum without stripping away essential natural moisture.",
+    "isFeatured": false
+  },
+  {
+    "id": "calm-hydrating-moisturizer",
+    "name": "Calm Hydrating Moisturizer",
+    "category": "Bundles",
+    "price": 29.90,
+    "priceDisplay": "$29.90 – $34.90",
+    "img": "images/skin-cleanser-template-product-img-14.jpg",
+    "rating": 5,
+    "description": "An ultra-lightweight cream loaded with hyaluronic acid and calming ceramides designed to soothe sensitive skin and lock in moisture for up to 48 hours.",
+    "isFeatured": true
+  },
+  {
+    "id": "cleanser-concentrate",
+    "name": "Cleanser Concentrate",
+    "category": "Cleanser",
+    "price": 30.00,
+    "priceDisplay": "$30.00",
+    "img": "images/skin-cleanser-template-product-img-7.jpg",
+    "rating": 5,
+    "description": "A high-potency gentle concentrate that transforms on contact with water to eliminate stubborn makeup, pollution residue, and dead skin cells effortlessly.",
+    "isFeatured": false
+  },
+  {
+    "id": "complex-sunscreen-balm",
+    "name": "Complex Sunscreen Balm",
+    "category": "Sunscreens",
+    "price": 22.50,
+    "priceDisplay": "$22.50",
+    "img": "images/skin-cleanser-template-product-img-12.jpg",
+    "rating": 5,
+    "description": "Broad-spectrum SPF 50+ mineral balm that melts seamlessly into the skin without white cast, shielding against UVA/UVB rays while keeping skin hydrated.",
+    "isFeatured": true
+  },
+  {
+    "id": "cream-to-foam-lotion",
+    "name": "Cream to Foam Lotion",
+    "category": "Body lotion",
+    "price": 18.90,
+    "priceDisplay": "$18.90",
+    "img": "images/skin-cleanser-template-product-img-2.jpg",
+    "rating": 5,
+    "description": "Innovative transforming cream that lathers into a luxurious silky foam, cleansing and conditioning skin simultaneously with gentle botanicals.",
+    "isFeatured": true
+  },
+  {
+    "id": "energizing-marine-lotion",
+    "name": "Energizing Marine Lotion",
+    "category": "Body lotion",
+    "price": 20.50,
+    "priceDisplay": "$20.50",
+    "img": "images/skin-cleanser-template-product-img-1.jpg",
+    "rating": 5,
+    "description": "Infused with sea kelp, marine algae, and mineral-rich ocean botanicals to refresh tired skin and deliver immediate cooling hydration.",
+    "isFeatured": false
+  },
+  {
+    "id": "hybrid-cleansing-balm",
+    "name": "Hybrid Cleansing Balm",
+    "category": "Cleanser",
+    "price": 32.90,
+    "priceDisplay": "$32.90",
+    "img": "images/skin-cleanser-template-product-img-3.jpg",
+    "rating": 5,
+    "description": "A sherbet-like cleansing balm that emulsifies into a soothing milk, effortlessly dissolving waterproof makeup and deeply clearing pores without dryness.",
+    "isFeatured": true
+  },
+  {
+    "id": "hydrating-gel-oil",
+    "name": "Hydrating Gel Oil",
+    "category": "Moisturizer",
+    "price": 20.00,
+    "priceDisplay": "$20.00",
+    "img": "images/skin-cleanser-template-product-img-9.jpg",
+    "rating": 5,
+    "description": "A unique gel-to-oil hybrid formula providing the deep nourishment of an oil with the fast absorption and weightless feel of a refreshing gel.",
+    "isFeatured": false
+  },
+  {
+    "id": "makeup-melting-cleanser",
+    "name": "Makeup Melting Cleanser",
+    "category": "Cleanser",
+    "price": 29.90,
+    "priceDisplay": "$29.90",
+    "img": "images/skin-cleanser-template-product-img-10.jpg",
+    "rating": 5,
+    "description": "Gentle botanical cleanser designed to dissolve the longest-wearing foundations and eye makeup without stinging or irritating sensitive eyes.",
+    "isFeatured": false
+  },
+  {
+    "id": "milky-gentle-cleanser",
+    "name": "Milky Gentle Cleanser",
+    "category": "Cleanser",
+    "price": 28.90,
+    "priceDisplay": "$28.90",
+    "img": "images/skin-cleanser-template-product-img-13.jpg",
+    "rating": 5,
+    "description": "Creamy, conditioning emulsion enriched with oat extract and chamomile to cleanse sensitive skin while maintaining its natural protective barrier.",
+    "isFeatured": false
+  },
+  {
+    "id": "soothing-sunscreen-gel",
+    "name": "Soothing Sunscreen Gel",
+    "category": "Sunscreens",
+    "price": 24.50,
+    "priceDisplay": "$24.50",
+    "img": "images/skin-cleanser-template-product-img-11.jpg",
+    "rating": 5,
+    "description": "Invisible, non-greasy SPF 45 sunscreen gel that delivers cooling relief and powerful UV protection ideal for daily wear under makeup.",
+    "isFeatured": false
+  },
+  {
+    "id": "flawless-face-lotion",
+    "name": "Flawless Face Lotion",
+    "category": "Moisturizer",
+    "price": 26.00,
+    "priceDisplay": "$26.00",
+    "img": "images/skin-cleanser-template-product-img-14.jpg",
+    "rating": 5,
+    "description": "Our signature daily moisturizer that balances oil production, enhances skin clarity, and leaves an all-day velvety matte finish.",
+    "isFeatured": false
+  }
+]
