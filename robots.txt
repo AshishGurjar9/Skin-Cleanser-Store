@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ashishgurjar9.github.io/Skin-Cleanser-Store/sitemap.xml
